@@ -1,4 +1,4 @@
-# "Dockerfile" with cap D without extension is standard name
+#"Dockerfile" with cap D without extension is standard name
 
 #--- FROM is first command that give base image; here Alpine Linux
 FROM ubuntu:20.04
