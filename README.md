@@ -48,5 +48,5 @@ docker exec -it gala-node4docker-node1 bash
 ```bash
 docker container gala-node4docker-node1
 docker container rm gala-node4docker-node1 #Option 1
-docker container purge #Option 2
+docker container prune #Option 2
 ```
