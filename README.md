@@ -27,7 +27,7 @@ docker run --name gala-node4docker-node1 -v $(pwd)/gala-headless-node1:/opt/gala
 Make sure you are in the folder above where you have stored permanently your config.json, ipfs, logs and node-metadata.json.
 
 ```bash
-docker run --name gala-node4docker-node1 -v $(pwd)/gala-headless-node1:/opt/gala-headless-node -itd gala-node4docker:0.9.0
+docker run --name gala-node4docker-node1 --restart=unless-stopped -v $(pwd)/gala-headless-node1:/opt/gala-headless-node -itd gala-node4docker:0.9.0
 ```
 
 ## Monitoring
