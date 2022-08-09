@@ -31,8 +31,11 @@ docker run --name gala-node4docker-node1 --restart=unless-stopped -v $(pwd)/gala
 ```
 
 ## Monitoring
+### Online in Gala Network
+Option 1) Watch if your node is online after login to https://node.gala.com
+Option 2) Check on https://music.gala.world/account and here within the point "Node Info"
 
-
+### Check the functionality on your own H/W
 Login to Node Command Line Dashboard in Detached Mode
 ```bash
 docker attach gala-node4docker-node1
@@ -46,7 +49,7 @@ docker exec -it gala-node4docker-node1 bash
 
 ## Cleaning up
 ```bash
-docker container gala-node4docker-node1
+docker container stop gala-node4docker-node1
 docker container rm gala-node4docker-node1 #Option 1
 docker container prune #Option 2
 ```
